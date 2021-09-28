@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Store</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo"src="./img/logoPC.png" alt="logo">
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-li"><a class="nav-link">Computadores</a></li>
+                    <li class="nav-li"><a class="nav-link">Notebook</a></li>
+                    <li class="nav-li"><a class="nav-link">Acessórios</a></li>
+                    <li class="nav-li"><a class="nav-link">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" alt="botao-menu" class="menu-icon" onclick="showMenu()">
+
+        </div>
+
+        <div class="row">
+            <div class="column-1">
+                <h2>PC Gamer</h2>
+                <h3>Um computador de alto desempenho</h3>
+                <p>Disponibilidade: em estoque</p>
+                <h4>R$ 5.200,00</h4>
+                <button class="buy">Comprar Agora <img src="img/arrow.png"> </button>
+            </div>
+            <div class="column-2">
+                <img class="controller" src="img/PC.png" alt="Controle">
+                <div class="color-box"></div>
+                <button class="add-cart>
+                    <img src="img/add.png" alt="Adicionar-ao-carrinho">
+                </button>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <img src="img/fb.png">
+            <img src="img/ig.png">
+            <img src="img/tw.png">
+        </div>
+
+    </div>
+</body>
+<script>
+    const menuList = document.getElementById("menu-list")
+    menuList.style.maxHeight = "0px"
+
+    function showMenu(){
+        if(menuList.style.maxHeight == "0px"){
+            menuList.style.maxHeight = "120px"
+        } else {
+            menuList.style.maxHeight = "0px"
+        }
+    }
+</script>
+</html>
