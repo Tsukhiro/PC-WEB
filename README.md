@@ -8,7 +8,7 @@
 
 ### Previw ✔️
 
-
+![visual](https://user-images.githubusercontent.com/89936463/135139014-f3831df7-ccf9-499a-b5b7-1c55843910f8.JPG)
 
 ### Agradecimento ✔️
 
