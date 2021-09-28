@@ -1,6 +1,6 @@
 ### Sobre o projeto ✔️
 
-◼️ Se trata de uma página web com animação e responsividade.
+◼️ Se trata de uma página web com animação e responsiva
 
 ### Tecnologias utilizada ✔️
 
